@@ -1,5 +1,6 @@
 # Chat-for-2-users
 Application for conversation between two users.
+Users have to enter a username before the caht could start.
 Uses a terminal as "chat window".
 
 Bugs :
