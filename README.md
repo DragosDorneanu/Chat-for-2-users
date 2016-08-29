@@ -9,6 +9,6 @@ Bugs :
 
 Observation :
   If you want to make this application work with computers other then those from your LAN you must :
-    1) In ChatClient.java you must replace "localhost" with your public IP address.
+    1) In ChatClient.java you must replace "localhost" with your public IP address (type "what is my IP" in your browser).
     2) On the machine where you hold the Server port forword port 8888 ( in this case ).
     3) Chat!
