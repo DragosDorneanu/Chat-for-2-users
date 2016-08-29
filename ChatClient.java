@@ -24,7 +24,7 @@ public class ChatClient
 	{
 		Scanner cin = new Scanner(System.in);
 		String clientName;
-		client = new Socket("79.112.118.123", 8888);
+		client = new Socket("localhost", 8888);
 		DataInputStream clientInput = new DataInputStream(client.getInputStream());
 		DataOutputStream clientOutput = new DataOutputStream(client.getOutputStream());
 		System.out.print("Enter your user name : ");
